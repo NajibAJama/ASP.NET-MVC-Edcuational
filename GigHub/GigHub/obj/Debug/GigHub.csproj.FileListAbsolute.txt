@@ -118,3 +118,7 @@ C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.cspr
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.csproj.CopyComplete
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.dll
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.pdb
+C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.initialModel.resources
+C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
+C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
+C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable1.resources

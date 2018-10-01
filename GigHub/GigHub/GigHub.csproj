@@ -200,9 +200,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810010341034_initialModel.cs" />
+    <Compile Include="Migrations\201810010341034_initialModel.Designer.cs">
+      <DependentUpon>201810010341034_initialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810010357374_CreateGigTable.cs" />
+    <Compile Include="Migrations\201810010357374_CreateGigTable.Designer.cs">
+      <DependentUpon>201810010357374_CreateGigTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810010432136_CreateGigTable1.cs" />
+    <Compile Include="Migrations\201810010432136_CreateGigTable1.Designer.cs">
+      <DependentUpon>201810010432136_CreateGigTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -282,6 +297,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810010341034_initialModel.resx">
+      <DependentUpon>201810010341034_initialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810010357374_CreateGigTable.resx">
+      <DependentUpon>201810010357374_CreateGigTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810010432136_CreateGigTable1.resx">
+      <DependentUpon>201810010432136_CreateGigTable1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
