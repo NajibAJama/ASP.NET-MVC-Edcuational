@@ -13,6 +13,7 @@ namespace GigHub.ViewModels
         public string Date { get; set; }
 
         [Required]
+        [ValidTime]
         public string Time { get; set; }
 
         //for drop down list we need numeric value for each option
