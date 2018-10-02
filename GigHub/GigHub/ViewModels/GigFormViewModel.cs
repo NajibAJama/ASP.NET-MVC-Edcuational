@@ -10,11 +10,11 @@ namespace GigHub.ViewModels
 
         //for drop down list we need numeric value for each option
         //this int will be genre Id.
-        public int Genre { get; set; }
+        public byte Genre { get; set; }
         //list of genere from the database
         //we wont add anything to this list or use it's options 
         //using index.(list and collections are unecesory)
-        public IEnumerable<Genre> Genres  { get; set; }
+        public IEnumerable<Genre> Genres { get; set; }
 
     }
 }

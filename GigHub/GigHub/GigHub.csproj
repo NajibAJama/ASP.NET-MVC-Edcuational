@@ -221,6 +221,10 @@
     <Compile Include="Migrations\201810020219217_PopulateGneresTable.Designer.cs">
       <DependentUpon>201810020219217_PopulateGneresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810022144485_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201810022144485_AddForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201810022144485_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models Configurations\GigConfigurations.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -325,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810020219217_PopulateGneresTable.resx">
       <DependentUpon>201810020219217_PopulateGneresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810022144485_AddForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201810022144485_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
