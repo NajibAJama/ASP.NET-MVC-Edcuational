@@ -34,7 +34,15 @@ namespace GigHub.Controllers
         [Authorize]
         [HttpPost]//called only by http post method
         public ActionResult Create(GigFormViewModel viewModel)
+            //mvc will touch each property of a viewmodel 
+            //convert problematic properties to methods so it won't touch it
+            //as it uses refelection to inspect those properties
         {
+            if(!ModelState.IsValid)
+            {
+                viewModel.Genres = _context.Genres.ToList();
+                return View("Create", viewModel);
+            }
             //these two send two quries to the database not good. 
             //var artist = _context.Users.Single(u => u.Id == artistID);
             //var genere = _context.Genres.Where(g => g.Id == viewModel.Genre).Single();
@@ -42,7 +50,7 @@ namespace GigHub.Controllers
             var gig = new Gig
             {
                 ArtistId = User.Identity.GetUserId(),
-                DateTime = viewModel.DateTime,
+                DateTime = viewModel.GetDateTime(),
                 Venue = viewModel.Venue,
                 GenreId = viewModel.Genre
             };
