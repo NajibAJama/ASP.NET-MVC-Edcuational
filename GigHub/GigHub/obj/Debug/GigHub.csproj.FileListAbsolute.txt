@@ -123,3 +123,4 @@ C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.cspr
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable1.resources
 C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverridenConventionsForGigsAndGenre.resources
+C:\Users\jay\Desktop\ASP.NET-MVC-Edcuational\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGneresTable.resources
